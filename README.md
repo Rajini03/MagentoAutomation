@@ -23,7 +23,7 @@ This project automates the testing of core user flows on [Magento Demo Website](
 - **Build Tool**: Maven  
 - **Design Pattern**: Page Object Model (POM)  
 - **Browser Driver Manager**: WebDriverManager  
-- **Version Control**: Git & GitHub  
+- **Version Control**: GitHub  
 - **IDE**: IntelliJ IDEA
 
 ---
@@ -40,7 +40,7 @@ MagentoAutomation/
 
 ├── screenshots/ # Proof of test execution
 
-├── testcases.xlsx # Test case documentation
+├── testcasesReports.xlsx # Test case documentation
 
 ├── pom.xml # Maven dependencies
 
