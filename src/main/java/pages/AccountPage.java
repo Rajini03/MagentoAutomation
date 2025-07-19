@@ -22,9 +22,7 @@ public class AccountPage extends BasePage {
     @FindBy(xpath = "//*[@id=\"maincontent\"]/div[2]/div[1]/div[3]/div[2]/div/div[2]/a[2]")
     WebElement selectChangePassword;
 
-    @FindBy(linkText = "Account Information")
-    WebElement accountInfoLink;
-
+    
     @FindBy(xpath = "//*[@id=\"change-password\"]")
     WebElement changePasswordCheckbox;
 
@@ -60,9 +58,7 @@ public class AccountPage extends BasePage {
         myAccountLink.click();
     }
 
-    public void goToAccountInformation() {
-        accountInfoLink.click();
-    }
+    
     public void selectCheckbox(){
         changePasswordCheckbox.click();
     }
